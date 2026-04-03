@@ -1,0 +1,40 @@
+{
+  "name": "git-undo",
+  "version": "1.0.0",
+  "description": "Smart CLI tool — type 'git undo' and it figures out what you probably want to undo",
+  "type": "module",
+  "keywords": [
+    "git",
+    "undo",
+    "redo",
+    "cli",
+    "revert",
+    "reset",
+    "developer-tools",
+    "terminal",
+    "reflog"
+  ],
+  "author": "Larsen Cundric",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larsencundric/git-undo.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src/"
+  ],
+  "bin": {
+    "git-undo": "./src/index.js",
+    "git-redo": "./src/redo.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "bash demo.sh"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
