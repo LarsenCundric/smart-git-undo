@@ -1,5 +1,5 @@
 {
-  "name": "git-undo",
+  "name": "smart-git-undo",
   "version": "1.0.0",
   "description": "Smart CLI tool — type 'git undo' and it figures out what you probably want to undo",
   "type": "module",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/larsencundric/git-undo.git"
+    "url": "https://github.com/LarsenCundric/smart-git-undo.git"
   },
   "engines": {
     "node": ">=18"

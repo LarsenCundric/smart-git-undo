@@ -1,4 +1,4 @@
-# git-undo
+# smart-git-undo
 
 A smart CLI tool that figures out what you probably want to undo. Just type `git undo`.
 
@@ -32,13 +32,13 @@ Detection is prioritized in that order — if you staged files and also have a r
 ## Install
 
 ```bash
-npm install -g git-undo
+npm install -g smart-git-undo
 ```
 
 Or run without installing:
 
 ```bash
-npx git-undo
+npx smart-git-undo
 ```
 
 Once installed, git finds it automatically as a subcommand:
